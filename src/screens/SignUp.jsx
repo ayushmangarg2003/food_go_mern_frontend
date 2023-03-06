@@ -6,7 +6,7 @@ const SignUp = () => {
     let navigate = useNavigate()
     const handelSubmit = async(e)=>{
         e.preventDefault();
-        const response = await fetch("http://foodgomernbackend.onrender.com/api/createuser",{
+        const response = await fetch("https://foodgomernbackend.onrender.com/api/createuser",{
            method:'POST',
            headers:{
             'Content-Type': 'application/json'
