@@ -26,7 +26,7 @@ const Cards = (props) => {
                 style={{"height":"120px" , 'objectFit':"cover"}}/>
                 <div className="card-body">
                     <h5 className="card-title text-center">{props.foodItem.name}</h5>
-                    <div className='container w-100 justify-between'>
+                    <div className='container w-100 text-center'>
                         <select className='text-black m-2 h-100 bg-info rounded' onChange={(e)=>setQty(e.target.value)}>
                             {Array.from(Array(6), (e, i) => {
                                 return (
@@ -40,13 +40,12 @@ const Cards = (props) => {
                             })}
                         </select>
                     </div>
-                    <div className='text-center'>
+                    <hr/>
+                    <div className='justify-between'>
+                        <div>₹{finalPrice}/-</div>
                         <button className="btn btn-info text-black justify-center ms-2" onClick={handleAddToCart}>Add to Cart</button>
                     </div>
-                    <hr/>
-                    <div className='d-inline h-100 fs-5'>
-                            ₹{finalPrice}/-
-                        </div>
+                    
                 </div>
             </div>
         </div>
