@@ -41,7 +41,7 @@ const Cards = (props) => {
                         </select>
                     </div>
                     <hr/>
-                    <div className='d-flex justify-content-between'>
+                    <div className='d-flex justify-content-around align-items-center'>
                         <div>₹{finalPrice}/-</div>
                         <button className="btn btn-info text-black justify-center ms-2" onClick={handleAddToCart}>Add to Cart</button>
                     </div>
