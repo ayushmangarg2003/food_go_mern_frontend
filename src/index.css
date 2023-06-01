@@ -10,11 +10,10 @@
 .home{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 100vh;
 }
 .fot{
-    position: absolute;
-    bottom: 0%;
     width: 100%;
 }
 
