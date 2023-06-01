@@ -41,11 +41,12 @@ const Cards = (props) => {
                         </select>
                     </div>
                     <div className='text-center'>
-                        <div className='d-inline h-100 fs-5'>
-                            ₹{finalPrice}
-                        </div>
                         <button className="btn btn-info text-black justify-center ms-2" onClick={handleAddToCart}>Add to Cart</button>
                     </div>
+                    <hr>
+                    <div className='d-inline h-100 fs-5'>
+                            ₹{finalPrice}/-
+                        </div>
                 </div>
             </div>
         </div>
