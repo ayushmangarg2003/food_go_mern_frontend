@@ -12,15 +12,12 @@ import { CartProvider } from "./components/ContextReducer";
 function App() {
   return (
     <CartProvider>
-      <Router>
-        <Navbar />
+      <Router>        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/createuser" element={<SignUp />} />
-          {/* <Route path="/cart" element={<Cart/>} /> */}
         </Routes>
-        <Footer />
       </Router>
     </CartProvider>
   );
