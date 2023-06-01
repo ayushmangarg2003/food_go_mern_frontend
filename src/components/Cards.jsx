@@ -43,7 +43,7 @@ const Cards = (props) => {
                     <div className='text-center'>
                         <button className="btn btn-info text-black justify-center ms-2" onClick={handleAddToCart}>Add to Cart</button>
                     </div>
-                    <hr>
+                    <hr/>
                     <div className='d-inline h-100 fs-5'>
                             ₹{finalPrice}/-
                         </div>
