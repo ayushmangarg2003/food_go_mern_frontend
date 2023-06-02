@@ -1,7 +1,7 @@
 ## Link to Website
 https://food-go-mern-frontend.vercel.app/
 
-This food delivery website was developed using MongoDB, ReactJS, and ExpressJS. However, its design is not completely responsive as it was built using Bootstrap. In addition, it includes features such as login/signup and a shopping cart.
+This is a Food Delivery website that has been developed using MongoDB, ReactJS, and ExpressJS. It is a comprehensive project that encompasses both front-end and back-end development, offering various features such as a Shopping Cart and Login/Signup option.
 
 ![Screenshot (44)](https://user-images.githubusercontent.com/105537793/223097569-7c62fbd8-28ba-48d5-8819-f88f74b22a0c.png)
 
